@@ -1,0 +1,136 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 40px 20px;
+    color: #1c1e21;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #1f2937;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #4b5563;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #111827;
+}
+
+.input-group {
+    display: flex;
+    gap: 12px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #3b82f6;
+}
+
+.btn {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #2563eb;
+}
+
+.btn-sm {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.center-card {
+    text-align: center;
+}
+
+.center-group {
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.center-group input {
+    max-width: 400px;
+}
+
+.center-btn {
+    width: auto;
+}
+
+.output {
+    display: none;
+    margin-top: 20px;
+    background-color: #f9fafb;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    white-space: pre-wrap;
+    font-family: inherit;
+    line-height: 1.5;
+}
+
+.output pre {
+    white-space: pre-wrap;
+    font-family: inherit;
+    margin: 0;
+}
+
+.feedback {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.correct {
+    color: #16a34a;
+}
+
+.incorrect {
+    color: #dc2626;
+}
+
+.quiz-q {
+    margin-bottom: 12px;
+}
