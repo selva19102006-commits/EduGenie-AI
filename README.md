@@ -12,5 +12,5 @@ EduGenie.AI is a web application designed to assist students with QnA, text summ
 
 1. **Clone the Repository:**
    ```bash
-   git clone <YOUR_GITHUB_REPOSITORY_URL>
+   git clone <https://github.com/selva19102006-commits/EduGenie-AI.git>
    cd EduGenie.AI
